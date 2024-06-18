@@ -74,7 +74,6 @@ while True:
     time.sleep(60)
     
     if is_iss_overhead() and is_night():
-    
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         
            connection.starttls()
